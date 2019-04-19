@@ -4,6 +4,10 @@
 //  Created by venkata bethamcharla on 4/18/19.
 //  Copyright © 2019 VENKATA. All rights reserved.
 //
+//  These programs are written
+//  after reading C Programming language by Kernighan and Ritchie
+//
+//
 
 #include <stdio.h>
 
@@ -27,7 +31,7 @@ int main()
     return 0;
 }
 
-
+//  Binary search algorithm
 int binarySearch(int x, int ref_array[], int size)
 {
     int low, high, mid;
@@ -55,7 +59,7 @@ int binarySearch(int x, int ref_array[], int size)
     return -1;
 }
 
-
+// Following is faster version of binary search algorithm
 int binarySearch_V2(int x, int ref_array[], int size)
 {
     int low, high, mid;
